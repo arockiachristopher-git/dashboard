@@ -1,0 +1,225 @@
+Date,Company,Category,Victim website,Victim country,Group,Ransom demand,Exfiltrated data amount,Exfiltrated data type:,Leaked data:,Ransom deadline:
+01-01-2023,EDS AUTOMOTIVE GMBH,Motor Vehicle Manufacturing,eds-automotive.de,Germany,LockBit3.0,$ 100000,N/A,Miscellaneous documents,70% of the total amount exfiltrated,01st Jan 23
+01-01-2023,CDER,Pharmaceutical Manufacturing,cder.fr,France,Play,N/A,5 GB,"Personal, private data, clients? documents, agreements, passports, id etc.",All exfiltrated data,08th Jan 23
+02-01-2023,STRATACACHE,IT/Technology,stratacache.com,USA,Play,N/A,89 GB,"Personal, private data, tax forms, employee forms, i-9, w-4, passports, SSN,",All exfiltrated data,04th Jan 23
+02-01-2023,SUNY POLYTECHNIC INSTITUTE,Education,sunypoly.edu,USA,Play,N/A,5 GB,"Private, personal data, SSN, IDs, passports, confident contracts etc.",All exfiltrated data,04th Jan 23
+03-01-2023,UTC AEROSPACE SYSTEMS | BOMBARDIER,Aviation and Aerospace Component Manufacturing,collinsaerospace.com|bombardier.com,Canada,Everest,N/A,N/A,"Corporate email access, Personal data of employees, department, internal","All exfiltrated data on sale for $30,000",N/A
+03-01-2023,SIRIUS SHIPPING,Transportation,siriusshipping.eu,Sweden,Play,N/A,270 GB,"Personal documents, private data, forms, agreement, passports, crew lists,",All exfiltrated data,04th Jan 23
+03-01-2023,FURETANK,Logistics,furetank.se,Sweden,Play,N/A,48 GB,"Personal documents, private data, forms, agreement, contracts, IDs, shipment",All exfiltrated data,04th Jan 23
+03-01-2023,TARNTANK SHIP MANAGEMENT,Transportation & Logistics,terntank.com,Sweden,Play,N/A,5 GB,"Waybills, cargo information, personal documents, private data, contracts,",All exfiltrated data amount,04th Jan 23
+03-01-2023,DENTAL ONE,Medical,dental1.com.au,Australia,BlackCat,N/A,6 GB,Miscellaneous documents,Sample with screenshots of miscellaneous documents,N/A
+04-01-2023,COMMUNITY ACTION PARTNERSHIP OF MADERA COUNTY (CAPMC),Social Services,maderacap.org,USA,BlackByte,"$ 200,000",N/A,Miscellaneous documents,Sample with screenshots of miscellaneous documents,N/A
+05-01-2023,ELLISON TECHNOLOGIES,IT/Technology,ellisontechnologies.com,USA,BlackByte,"$ 500,000",N/A,Miscellaneous documents,Sample with screenshots of miscellaneous documents,N/A
+05-01-2023,SUZHOU DONGSHAN PRECISION MANUFACTURING,Industrial Machinery Manufacturing,dsbj.com,China,Play,N/A,N/A,N/A,/,N/A
+05-01-2023,HAYWARD,Business,hayward-pool.com,USA,BlackByte,N/A,N/A,N/A,All the exfiltrated data,N/A
+05-01-2023,KANSAS CITY HOMES,Real estate,kansascityhomes.com,USA,BlackByte,N/A,N/A,N/A,All the exfiltrated data,N/A
+06-01-2023,BAY AREA RAPID TRANSIT,Transportation,bart.Public Sector,USA,Vice Society,N/A,"120,000 files","Unredacted reports detailing suspected child abuse, including the children?s",All the exfiltrated data,N/A
+06-01-2023,CONSULATE HEALTH CARE,Health Care,consulatehc.com,USA,Hive,N/A,550 GB,"Contracts and other agreements documents company private info (budgets, plans,",All the exfiltrated data,N/A
+06-01-2023,LETMEREPAIR,IT/Technology,letmerepair.com,Belgium,Vice Society,N/A,N/A,Miscellaneous documents,Sample with miscellaneous documents,N/A
+06-01-2023,PROQUINAL SPRADLING GROU,Floor manufacturing,proquinal.com,Colombia,Vice Society,N/A,N/A,Miscellaneous documents,Sample with miscellaneous documents,N/A
+06-01-2023,SUB-DRILL SUPPLY,Oil and Gas,sub-drill.com,USA,Vice Society,N/A,N/A,Miscellaneous documents,Sample with miscellaneous documents,N/A
+06-01-2023,BEVOLUTION GROUP,Food manufacturing,bevolutiongroup.com,USA,Royal,N/A,N/A,Miscellaneous documents,20% of the total amount exfiltrated,N/A
+06-01-2023,LEK / HABO,Machinery Manufacturing,lekhabo.nl,Netherlands,Royal,N/A,N/A,N/A,/,N/A
+07-01-2023,PENDULUM ASSOCIATES,Financial Services,pendulum.com.mx,Mexico,BlackCat,N/A,N/A,"Over 30,000 of client?s personal data",100% of the exfiltrated data,N/A
+07-01-2023,BUFFCO PRODUCTION,Oil and Gas,buffcoproduction.com,USA,BlackCat,N/A,956 GB,"Internal Company Data (Employees personal data, CV?s, DL?s, ID?s, SSN?s,",Sample with screenshots of miscellaneous documents,N/A
+07-01-2023,AYUNTAMIENTO DE JU?REZ,Public Sector,juarez.gob.mx,Mexico,LockBit3.0,N/A,N/A,N/A,All the exfiltrated data,19th Jan 23
+07-01-2023,CITY LIT,College,citylit.ac.uk,United Kingdom,Vice Society,N/A,N/A,Miscellaneous documents,Sample with files tree,N/A
+07-01-2023,GRUPO ESTRATEGAS EMM,Insurance,estrategas.com.mx,Mexico,BlackCat,N/A,N/A,"Information about inner documentation and all your clients ? Afirme, Banorte,",/,N/A
+07-01-2023,PARK VIEW,School,parkview.haringey.sch.uk,United Kingdom,Vice Society,N/A,N/A,Miscellaneous documents,Sample with files tree,N/A
+07-01-2023,100% BANCO,Bank,100x100banco.com,Venezuela,LockBit3.0,N/A,N/A,Miscellaneous documents,All the exfiltrated data,19th Jan 23
+07-01-2023,DUTY FREE PHILIPPINES,Retail,dfp.com.ph,Philippines,Vice Society,N/A,N/A,Miscellaneous documents,Sample with files tree,N/A
+07-01-2023,SWIFT ACADEMIES,School,swiftacademies.org.uk,UNITED KINGDOM,Vice Society,N/A,N/A,Miscellaneous documents,Sample with files tree,N/A
+07-01-2023,TAKAMIYA,Business,takamiya.co,Japan,LockBit3.0,N/A,N/A,N/A,All the exfiltrated data,21st Jan 23
+08-01-2023,FRUTTAGEL,Food manufacturing,fruttagel.it,Italy,BlackCat,N/A,755 GB,"Financial and corporate documents, customer data from bank cards",Screenshots with sample of miscellaneous and PII documents,N/A
+08-01-2023,KOO WEE RUP SECONDARY COLLEGE,School,kwrsc.vic.edu.au,Australia,BlackCat,N/A,105 GB,"school private info (security cameras records, budgets, plans, evaluations,",/,N/A
+08-01-2023,MILLENNIA,Engineering,millennia.pro,US,LockBit3.0,"$ 300,000",22.44 GB,N/A,All the exfiltrated data,10th Feb 23
+08-01-2023,ASIAN REINSURANCE CORPORATION,Insurance,asianrecorp.com,Thailand,LockBit3.0,"$ 30,000",N/A,N/A,All the exfiltrated data,29th Jan 23
+08-01-2023,ORDER EXPRESS,Financial Services,orderexpress.com.mx,Mexico,Cl0p,N/A,N/A,"Information about many people, business process and practice",Sample with screenshots of PII documents,19th Sep 23
+08-01-2023,LOESCH,Wholesale,loeschgroup.de,Germany,Cl0p,N/A,N/A,Miscellaneous documents,All the exfiltrated data,N/A
+08-01-2023,SOFTEQ,IT/Technology,softeq.com,USA,Cl0p,N/A,N/A,Miscellaneous documents,All the exfiltrated data,N/A
+09-01-2023,AVIACODE,Medical,aviacode.com,USA,0mega,N/A,235 GB,Miscellaneous documents,All the exfiltrated data,Expired
+09-01-2023,RIVER CITY SCIENCE ACADEMY,Education,rivercityscience.org,USA,Karakurt,N/A,63 GB,"financials, executive and accounting information as well as a great amount of",All the exfiltrated data,N/A
+10-01-2023,DATAIR,Software and finance,datair.com,USA,LockBit3.0,$ 250000,N/A,N/A,/,15th Jan 23
+10-01-2023,CHESTERTONS INC.,Real estate,chestertons.co.uk,United Kingdom,Lorenz,N/A,N/A,Miscellaneous documents,All the exfiltrated data,Expired
+10-01-2023,SHELCO,Construction,shelcollc.com,USA,Lorenz,N/A,N/A,Miscellaneous documents,95% of the total exfiltrated data,N/A
+10-01-2023,THOR SPECIALTIES,Chemical Manufacturing,thorsp.com,USA,Lorenz,N/A,N/A,Miscellaneous documents,80% of the total exfiltrated data,N/A
+11-01-2023,CIRCLEVILLE MUNICIPAL COURT,Law,circlevillecourt.com,USA,LockBit3.0,"$ 199,000",500 GB,Customer data. Nanny criminals. Case information. And much more.,All the exfiltrated data,Expired
+11-01-2023,TIME TECHNOPLAST LIMITED,Packaging and Containers Manufacturing,timetechnoplast.com,India,BlackCat,N/A,150 GB,Financial documents and reports ? Analytical and strategic documents ?,Sample with screenshots of miscellaneous documents,N/A
+11-01-2023,G.W. BECKER,Machinery Manufacturing,gwbcrane.com,USA,Hive,N/A,N/A,N/A,All the exfiltrated data,N/A
+11-01-2023,ADIVA CO.,Automobile Manufacturing,adiva-tw.com,Taiwan,Mallox,N/A,800 MB,N/A,All the exfiltrated data,N/A
+12-01-2023,AIR COMM CORPORATION,Aviation and Aerospace Component Manufacturing,aircommcorp.com,USA,BlackCat,N/A,1 TB,"Personal data, databases, manufacturing and clients? documents, also we have",/,19th Jan 23
+12-01-2023,IMI HYDRONIC ENGINEERING,Wholesale Building Materials,imi-hydronic.com,Switzerland,RansomHouse,N/A,"1,5 TB",Confidential or research data,Sample with evidence packs,N/A
+12-01-2023,RUSSELL FINEX,Mechanical Or Industrial Engineering,russellfinex.com,United Kingdom,LockBit3.0,$ 250000,"4,09 GB",Miscellaneous documents,Sample with screenshots of miscellaneous documents,26th Jan 23
+12-01-2023,M?LLER GARTENBAU & PLANUNG AG,Plantation,muellergartenbau.ch,Switzerland,LockBit3.0,$ 100000,N/A,N/A,Sample with screenshots of miscellaneous documents,27th Jan 23
+12-01-2023,LIDESTRI,Food and Beverage,lidestrifoodanddrink.com,USA,LockBit3.0,$ 400000,N/A,N/A,Sample with screenshots of miscellaneous documents,26th Jan 23
+12-01-2023,VERSTEDEN,Search Engines & PortalsBusiness,versteden.com,Netherlands,LockBit3.0,$ 200000,"22,28 GB",Miscellaneous documents,All the exfiltrated data,26th Jan 23
+12-01-2023,PHYSICIAN PARTNERS OF AMERICA,Medical,physicianpartnersofamerica.com,USA,Snatch,N/A,N/A,N/A,Sample with screenshots of PHI documents,N/A
+12-01-2023,NUXE,Fashion & Beauty,nuxe.com,France,LockBit3.0,N/A,N/A,N/A,All the exfiltrated data,28th Jan 23
+12-01-2023,LLOYD DOWSON,Finance,lloyddowson.co.uk,United Kingdom,LockBit3.0,N/A,N/A,N/A,/,N/A
+13-01-2023,FU YU CORPORATION,Public Sector,fuyucorp.com,Singapore,BlackCat,N/A,386 GB,Miscellaneous documents,All the exfiltrated data,Expired
+13-01-2023,LIEBRA PERMANA,Apparel & Fashion,liebrapermana.com,Indonesia,BlackCat,N/A,820 GB,"Financial documents and reports, analytical and strategic documents,",Sample with screenshots of miscellaneous and PII documents,N/A
+13-01-2023,TRANS MALDIVIAN AIRWAYS,Airlines and Aviation,transmaldivian.com,Maldives,RansomHouse,$ 250000,350 GB,Confidential data,Sample with evidence packs,N/A
+13-01-2023,FUJIKURA-ELECTRONICS.CO.TH,"Electrical, and Electronics Manufacturing",fujikura-electronics.co.th,Thailand,LockBit3.0,"$ 130,000","33,24 GB",N/A,Sample with screenshots of several folders,07th Jan 23
+13-01-2023,T A SUPPLY,Building Materials Manufacturing,tasupply.com,USA,Play,N/A,N/A,N/A,Sample with internal documents,N/A
+13-01-2023,CHINERY AND DOUGLAS,Law,lvcdlaw.com,USA,Play,N/A,N/A,N/A,Sample with working documents,N/A
+13-01-2023,RUHRPUMPEN,Industrial Machinery Manufacturing,ruhrpumpen.com,Germany,Play,N/A,N/A,N/A,"Sample with passports, finance, internal documents",N/A
+14-01-2023,SAMUELS AND SON SEAFOOD,Food,samuelsseafood.com,USA,Royal,N/A,230 GB,Miscellaneous documents,100% of the exfiltrated data,N/A
+14-01-2023,HOLOVIS,Entertainment,holovis.com,United Kingdom,RansomHouse,N/A,150 GB,Confidential data,Sample with evidence packs,N/A
+14-01-2023,CENTRAL TEXAS COLLEGE,College,ctcd.edu,USA,Vice Society,N/A,N/A,Miscellaneous documents,Sample with files tree and several,N/A
+14-01-2023,TIMCO,Product,timco.co.uk,United Kingdom,Vice Society,N/A,N/A,Miscellaneous documents,Sample with files tree and several,N/A
+14-01-2023,K2 SPORTS,Sports business,k2sports.com,USA,BlackByte,N/A,N/A,N/A,/,N/A
+15-01-2023,DAYTON PROGRESS,Business,daytonprogress.de,United Kingdom,Play,N/A,67 GB,"Private and personal confidential data, customer documents, stampings schemes,",100% of the exfiltrated data,N/A
+15-01-2023,HILLS SALVAGE AND RECYCLING,Motor Vehicle Manufacturing,hills-motors.co.uk,United Kingdom,Royal,N/A,"5,1 GB",Miscellaneous documents,100% of the exfiltrated data,N/A
+15-01-2023,MATRIX GLOBAL SCHOOLS,Schools,matrixschools.edu.my,Malaysia,LockBit3.0,N/A,N/A,Miscellaneous documents,100% of the exfiltrated data,03rd Feb 23
+15-01-2023,EL SEIF DEVELOPMENT,Engineering and construction,elseif.com.sa,Saudi Arabia,Mallox,N/A,18 GB,Miscellaneous documents,100% of the exfiltrated data,N/A
+16-01-2023,ARNOLD CLARK,Transportation,arnoldclark.com,United Kingdom,Play,N/A,467 GB,"Private and personal data, passports, IDs, confidential contracts, agreements,",10% of the exfiltrated data,N/A
+16-01-2023,ARC,Printing service,e-arc.com,USA,BlackByte,"$ 350,000",N/A,Miscellaneous documents,Sample with screenshots of miscellaneous and PII documents,N/A
+16-01-2023,AL ABDUL KARIM & CO,Retail,ak.com.sa,Saudi Arabia,LockBit3.0,N/A,2 GB,Miscellaneous documents,100% of the exfiltrated data,02nd Feb 23
+16-01-2023,ATCUAE,Truck transportation,atcuae.ae,UAE,LockBit3.0,N/A,1 GB,"Miscellaneous, including financial documents",100% of the exfiltrated data,04th Feb 23
+16-01-2023,FULFILMENT MATTERS,"Transportation, Logistics, Supply Chain and Storage",fulfilmentmatters.co.uk,United Kingdom,LockBit3.0,N/A,5 GB,N/A,100% of the exfiltrated data,30th Jan 23
+16-01-2023,MELODY SHIPPING AGENCIES,Maritime,melody.com.tr,Turkey,LockBit3.0,N/A,N/A,Miscellaneous documents,Sample with files tree and several downloadable folders,03rd Feb 23
+16-01-2023,R C STEVENS CONSTRUCTION,Construction,rcstevens.com,USA,Hive,N/A,N/A,N/A,100% of the exfiltrated data,N/A
+17-01-2023,AUTODELTA,Automotive,autodelta.pt,Portugal,Royal,N/A,200 GB,Miscellaneous documents,20% of the exfiltrated data,N/A
+17-01-2023,POLITRIZ,Chemical Manufacturing,politriz.ind.br,Brazil,LockBit3.0,N/A,N/A,N/A,100% of the exfiltrated data,N/A
+17-01-2023,YAYLA ENERJI URETIM TURIZM VE INSAAT TICARET (YAYLA),Energy,yayla.tc,Turkey,Mallox,N/A,"43,6 MB",Miscellaneous documents,Sample with a downloadable folder,N/A
+17-01-2023,CARINYA CHRISTIAN SCHOOL,School,carinya.nsw.edu.au,Australia,Royal,N/A,N/A,N/A,10% of the exfiltrated data,N/A
+17-01-2023,WESTS?CHSISCHE HOCHSCHULE ZWICKAU,University,fh-zwickau.de,Germany,Royal,N/A,N/A,N/A,/,N/A
+18-01-2023,LIVINGSTON,Business,livingstonintl.com,Canada,Royal,N/A,N/A,Miscellaneous documents,"Sample with employee documents, finance, network structure",N/A
+18-01-2023,ALHAMBRA-EIDOS,IT/Technology,alhambra-eidos.com,Spain,Mallox,N/A,"3,01 GB",N/A,Sample with a downloadable folder,N/A
+19-01-2023,PAYROLL2U,Human Resources Services,payroll2u.com,,LockBit3.0,$ 90000 USD,500 gb,,Contracts and source code samples,
+19-01-2023,DUOMED GROUP,Medical Equipment Manufacturing,duomed.com,,LockBit3.0,$ 200000 USD,N/A,,/,
+19-01-2023,FRESH DEL MONTE,Food and Beverage Services,freshdelmonte.com,,BlackCat,N/A,N/A,,Screenshots of PII available,
+19-01-2023,NEXTGEN,Medical,/,,BlackCat,N/A,N/A,,Screenshots of PII available,
+19-01-2023,PHARMACARE,Pharma,/,,BlackCat,N/A,N/A,,Screenshots of PII available,
+19-01-2023,K AZAROSIAN COSTELLO,Law,Kazcolaw.com,,Royal,N/A,N/A,,/,
+20-01-2023,MONMOUTH COLLEGE,College,monmouthcollege.edu,,Vice Society,N/A,N/A,,/,
+20-01-2023,UNIVERSITY OF DUISBURG-ESSEN,University,uni-due.de,,Vice Society,N/A,N/A,,/,
+20-01-2023,TON VAN KUYK,Motor Vehicle Manufacturing,tvk.nl,,LockBit3.0,N/A,N/A,,/,
+21-01-2023,IBB BUSINESS TEAM,Financial Services,ibb-business-team.de,,LockBit3.0,N/A,240 gb,,Screenshots of PII available,
+21-01-2023,MIGUEL MECHANICAL SERVICES LIMITED,Oil and Gas,miguelmechanical.com,,LockBit3.0,N/A,N/A,,Sample of stolen data,
+21-01-2023,CLOUDCALL,IT/Technology,cloudcall.com.au,,Vice Society,N/A,N/A,,Sample of stolen data,
+21-01-2023,EMONEY HOME LOANS,Financial Services,emoneyhomeloans.com.au,,Vice Society,N/A,N/A,,Sample of stolen data,
+21-01-2023,CADEMET,Business,cadmet.com,,Royal,N/A,N/A,,/,
+21-01-2023,PILLAR RESOURCE SERVICES,Construction,pillar.ca,,Royal,N/A,N/A,,/,
+22-01-2023,IBB BUSINESS TEAM,Financial Services,ibb-business-team.de,,LockBit3.0,N/A,240 gb,,Screenshots of PII available,
+22-01-2023,MIGUEL MECHANICAL SERVICES LIMITED,Oil and Gas,miguelmechanical.com,,LockBit3.0,N/A,N/A,,Sample of stolen data,
+22-01-2023,CLOUDCALL,IT/Technology,cloudcall.com.au,,Vice Society,N/A,N/A,,Sample of stolen data,
+22-01-2023,EMONEY HOME LOANS,Financial Services,emoneyhomeloans.com.au,,Vice Society,N/A,N/A,,Sample of stolen data,
+22-01-2023,CADEMET,Business,cadmet.com,,Royal,N/A,N/A,,/,
+22-01-2023,PILLAR RESOURCE SERVICES,Construction,pillar.ca,,Royal,N/A,N/A,,/,
+23-01-2023,IBB BUSINESS TEAM,Financial Services,ibb-business-team.de,,LockBit3.0,N/A,240 gb,,Screenshots of PII available,
+23-01-2023,MIGUEL MECHANICAL SERVICES LIMITED,Oil and Gas,miguelmechanical.com,,LockBit3.0,N/A,N/A,,Sample of stolen data,
+23-01-2023,CLOUDCALL,IT/Technology,cloudcall.com.au,,Vice Society,N/A,N/A,,Sample of stolen data,
+23-01-2023,EMONEY HOME LOANS,Financial Services,emoneyhomeloans.com.au,,Vice Society,N/A,N/A,,Sample of stolen data,
+23-01-2023,CADEMET,Business,cadmet.com,,Royal,N/A,N/A,,/,
+23-01-2023,PILLAR RESOURCE SERVICES,Construction,pillar.ca,,Royal,N/A,N/A,,/,
+24-01-2023,STIBBS & CO,Law,stibbsco.com,,BlackCat,N/A,679 GB,,Miscellaneous,
+24-01-2023,INSTITUTO FEDERAL PAR ?,Education,ifpa.edu.br,,BlackCat,N/A,N/A,,Data of employees and students,
+24-01-2023,AUTOTRADER,Advertising Services,autotrader.com,,N/A,N/A,1.4M customer records,,PII and unique email addresses,
+24-01-2023,KOMPLETTFRITID,Retail,komplettfritid.no,,N/A,N/A,140k customer records,,PII exposed,
+25-01-2023,FLATIRONS SOLUTIONS,IT/Technology,flatironssolutions.com,,LockBit3.0,$ 1000000 USD,3.1 GB,,General data,
+25-01-2023,ELSAN,Hospitals and Health Care,elsan.care,,LockBit3.0,N/A,821 GB,,"PII, financial and genaral informations",
+25-01-2023,XLNT SOFTWARE SOLUTIONS,Software Development,xlntinc.com,,LockBit3.0,N/A,N/A,,/,
+26-01-2023,CRESCENT CROWN DISTRIBUTING,Food and Beverage Services,crescentcrown.com,,BlackCat,N/A,1.05 TB,,Screenshots of PII Available,
+26-01-2023,SOMACIS,"Appliances, Electrical, and Electronics Manufacturing",somacis.com,,BlackCat,N/A,262 GB,,Screenshots of PII Available,
+26-01-2023,COPPER MOUNTAIN,Mining,cumtn.com,,BlackCat,N/A,450 GB,,Screenshots of PII Available,
+26-01-2023,ADMIRAL SPORTWETTEN,Gambling,admiral.at,,Play,N/A,N/A,,/,
+27-01-2023,SOLAR INDUSTRIES INDIA,Mining,solargroup.com,India,BlackCat,N/A,2 TB,Sensitive data related to weapons production and PII,Sample with screenshots of PII Available,N/A
+27-01-2023,CHARLES P VONDERHAAR CPA,Accounting,cpvcpa.com,USA,BlackCat,N/A,50 GB,PII and financial informations,Screenshots of PII Available,N/A
+27-01-2023,IOC,Construction,ioccompany.com,USA,Royal,N/A,N/A,N/A,/,N/A
+27-01-2023,SERVICEMASTER,Consumer Services,servicemasterclr.com,USA,Royal,N/A,N/A,N/A,/,N/A
+27-01-2023,TRAVIS COUNTY SHERIFFS OFFICERS ASSOCIATION,Social Organization,traviscountytx.Public Sector,USA,Royal,N/A,N/A,N/A,/,N/A
+27-01-2023,BRISTOL COMMUNITY COLLEGE,College,bristolcc.edu,USA,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+28-01-2023,WHITEPAGES,IT/Technology,whitepages.com,USA,Halcyonic,N/A,11.657.763 records,Users? information,"Email addresses, Names, Passwords",Files already uploaded
+28-01-2023,OMGPOP,Computer Games,/,USA,nvl,N/A,7.071.893 records,Users? information,"Email addresses, Names, Passwords",Files already uploaded
+28-01-2023,WESTMONT HOSPITALITY GROUP,Hospitality,whg.com,Canada,BlackCat,N/A,250 GB,Corporate data,"Financial and corporate documents, customer data. Certificates, employee",Files Available to Download
+28-01-2023,TRANSPORTATION SECURITY ADMINISTRATION,Public Sector Administration,tsa.Public Sector,USA,Maia Arson Crimew,N/A,"1,817,233 records",PII data,Full names and Dates of Birth,N/A
+28-01-2023,ZEEROQ,Unsure,demo.zeeroq.com,France,All3in,N/A,233.908.449 records,Users? records,"Email Addresses, Passwords",Files already uploaded
+28-01-2023,ARIZONA LIVER HEALTH,Medical,azliver.com,USA,LockBit3.0,$ 150.000 USD,N/A,Miscellaneous,Sample with screenshots of PII Available,12-Feb-23
+28-01-2023,PORTNOFF LAW ASSOCIATES,Law Services,portnoffonline.com,USA,BlackCat,N/A,240 GB,"Contracts, financial reports, accounting, clients info and etc",Sample with screenshots of PII Available,N/A
+28-01-2023,STAYFUL,IT/Technology,N/A,USA,visionary,N/A,183.000 records,Users? information,"Usernames, Full names, Phone numbers, Email addresses, Locations, Passwords",Files already uploaded
+28-01-2023,C.M. VIMIOSO,Municipality,cm-vimioso.pt,Portugal,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,AIR ALBANIA,Airlines and Aviation,airalbania.com.al,Albania,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,YUEN LIANG INDUSTRIAL & CO,Petroleum resin production,ylresin.com,Taiwan,LockBit3.0,$ 30.000 USD,N/A,N/A,/,04-Feb-23
+28-01-2023,ULTRABULK,Maritime,ultrabulk.com,Denmark,BlackCat,N/A,N/A,Miscellaneous,Sample with screenshots of PII Available,N/A
+28-01-2023,ITSSERVICIOS,Business Service,itsservicios.com.mx,Mexico,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,CPL INDUSTRIES,Oil and Coal Product Manufacturing,cplindustries.co.uk,United Kingdom,LockBit3.0,N/A,N/A,N/A,/,13-Feb-23
+28-01-2023,KVIE,Broadcast Media Production and Distribution,kvie.org,USA,LockBit3.0,N/A,N/A,N/A,/,13-Feb-23
+28-01-2023,BULLDOG GROUP,Construction,bulldoggroupinc.com,USA,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,JUVA SKIN & LASER CENTER,Medical,juvaskin.com,USA,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,SEEK THERMAL,Computers and Electronics Manufacturing,thermal.com,Canada,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,DS AVOCATS,Law,dsavocats.com,France,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,WEALTHWISE,Financial Services,wealthwise.com.au,Australia,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,LUACES ASESORES,Investment Management,luacesasesores.es,Spain,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,JULIUS FRITSCHE GMBH,WholeSale,fritsche.eu.com,Austria,LockBit3.0,N/A,N/A,N/A,/,13-Feb-23
+28-01-2023,PERENITYSOFTWARE,IT/Technology,perenitysoftware.com,Morocco,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+28-01-2023,NPTC GROUP OF COLLEGES,college,nptcgroup.ac.uk,United Kingdom,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+28-01-2023,SEGUROS EQUINOCCIAL,Insurance,segurosequinoccial.com,Ecuador,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+28-01-2023,EGR,Shopping,egr.at,Austria,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+28-01-2023,HELICAR,Truck transportation,helicar.cz,Czech Republic,Play,N/A,N/A,Miscellaneous,/,02-Feb-23
+29-01-2023,WHITEPAGES,IT/Technology,whitepages.com,USA,Halcyonic,N/A,11.657.763 records,Users? information,"Email addresses, Names, Passwords",Files already uploaded
+29-01-2023,OMGPOP,Computer Games,/,USA,nvl,N/A,7.071.893 records,Users? information,"Email addresses, Names, Passwords",Files already uploaded
+29-01-2023,WESTMONT HOSPITALITY GROUP,Hospitality,whg.com,Canada,BlackCat,N/A,250 GB,Corporate data,"Financial and corporate documents, customer data. Certificates, employee",Files Available to Download
+29-01-2023,TRANSPORTATION SECURITY ADMINISTRATION,Public Sector Administration,tsa.Public Sector,USA,Maia Arson Crimew,N/A,"1,817,233 records",PII data,Full names and Dates of Birth,N/A
+29-01-2023,ZEEROQ,Unknown,demo.zeeroq.com,France,All3in,N/A,233.908.449 records,Users? records,"Email Addresses, Passwords",Files already uploaded
+29-01-2023,ARIZONA LIVER HEALTH,Medical,azliver.com,USA,LockBit3.0,$ 150.000 USD,N/A,Miscellaneous,Sample with screenshots of PII Available,12-Feb-23
+29-01-2023,PORTNOFF LAW ASSOCIATES,Law Services,portnoffonline.com,USA,BlackCat,N/A,240 GB,"Contracts, financial reports, accounting, clients info and etc",Sample with screenshots of PII Available,N/A
+29-01-2023,STAYFUL,IT/Technology,N/A,USA,visionary,N/A,183.000 records,Users? information,"Usernames, Full names, Phone numbers, Email addresses, Locations, Passwords",Files already uploaded
+29-01-2023,C.M. VIMIOSO,Municipality,cm-vimioso.pt,Portugal,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,AIR ALBANIA,Airlines and Aviation,airalbania.com.al,Albania,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,YUEN LIANG INDUSTRIAL & CO,Petroleum resin production,ylresin.com,Taiwan,LockBit3.0,$ 30.000 USD,N/A,N/A,/,04-Feb-23
+29-01-2023,ULTRABULK,Maritime,ultrabulk.com,Denmark,BlackCat,N/A,N/A,Miscellaneous,Sample with screenshots of PII Available,N/A
+29-01-2023,ITSSERVICIOS,Business Service,itsservicios.com.mx,Mexico,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,CPL INDUSTRIES,Oil and Coal Product Manufacturing,cplindustries.co.uk,United Kingdom,LockBit3.0,N/A,N/A,N/A,/,13-Feb-23
+29-01-2023,KVIE,Broadcast Media Production and Distribution,kvie.org,USA,LockBit3.0,N/A,N/A,N/A,/,13-Feb-23
+29-01-2023,BULLDOG GROUP,Construction,bulldoggroupinc.com,USA,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,JUVA SKIN & LASER CENTER,Medical,juvaskin.com,USA,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,SEEK THERMAL,Computers and Electronics Manufacturing,thermal.com,Canada,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,DS AVOCATS,Law,dsavocats.com,France,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,WEALTHWISE,Financial Services,wealthwise.com.au,Australia,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,LUACES ASESORES,Investment Management,luacesasesores.es,Spain,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,JULIUS FRITSCHE GMBH,Wholesale,fritsche.eu.com,Austria,LockBit3.0,N/A,N/A,N/A,/,13-Feb-23
+29-01-2023,PERENITYSOFTWARE,IT/Technology,perenitysoftware.com,Morocco,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+29-01-2023,NPTC GROUP OF COLLEGES,college,nptcgroup.ac.uk,United Kingdom,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+29-01-2023,SEGUROS EQUINOCCIAL,Insurance,segurosequinoccial.com,Ecuador,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+29-01-2023,EGR,Shopping,egr.at,Austria,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+29-01-2023,HELICAR,Truck transportation,helicar.cz,Czech Republic,Play,N/A,N/A,Miscellaneous,/,02-Feb-23
+30-01-2023,WHITEPAGES,IT/Technology,whitepages.com,USA,Halcyonic,N/A,11.657.763 records,Users? information,"Email addresses, Names, Passwords",Files already uploaded
+30-01-2023,OMGPOP,Computer Games,/,USA,nvl,N/A,7.071.893 records,Users? information,"Email addresses, Names, Passwords",Files already uploaded
+30-01-2023,WESTMONT HOSPITALITY GROUP,Hospitality,whg.com,Canada,BlackCat,N/A,250 GB,Corporate data,"Financial and corporate documents, customer data. Certificates, employee",Files Available to Download
+30-01-2023,TRANSPORTATION SECURITY ADMINISTRATION,Public Sector Administration,tsa.Public Sector,USA,Maia Arson Crimew,N/A,"1,817,233 records",PII data,Full names and Dates of Birth,N/A
+30-01-2023,ZEEROQ,Unknown,demo.zeeroq.com,France,All3in,N/A,233.908.449 records,Users? records,"Email Addresses, Passwords",Files already uploaded
+30-01-2023,ARIZONA LIVER HEALTH,Medical,azliver.com,USA,LockBit3.0,$ 150.000 USD,N/A,Miscellaneous,Sample with screenshots of PII Available,12-Feb-23
+30-01-2023,PORTNOFF LAW ASSOCIATES,Law Services,portnoffonline.com,USA,BlackCat,N/A,240 GB,"Contracts, financial reports, accounting, clients info and etc",Sample with screenshots of PII Available,N/A
+30-01-2023,STAYFUL,IT/Technology,N/A,USA,visionary,N/A,183.000 records,Users? information,"Usernames, Full names, Phone numbers, Email addresses, Locations, Passwords",Files already uploaded
+30-01-2023,C.M. VIMIOSO,Municipality,cm-vimioso.pt,Portugal,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,AIR ALBANIA,Airlines and Aviation,airalbania.com.al,Albania,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,YUEN LIANG INDUSTRIAL & CO,Petroleum resin production,ylresin.com,Taiwan,LockBit3.0,$ 30.000 USD,N/A,N/A,/,04-Feb-23
+30-01-2023,ULTRABULK,Maritime,ultrabulk.com,Denmark,BlackCat,N/A,N/A,Miscellaneous,Sample with screenshots of PII Available,N/A
+30-01-2023,ITSSERVICIOS,Business Service,itsservicios.com.mx,Mexico,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,CPL INDUSTRIES,Oil and Coal Product Manufacturing,cplindustries.co.uk,United Kingdom,LockBit3.0,N/A,N/A,N/A,/,13-Feb-23
+30-01-2023,KVIE,Broadcast Media Production and Distribution,kvie.org,USA,LockBit3.0,N/A,N/A,N/A,/,13-Feb-23
+30-01-2023,BULLDOG GROUP,Construction,bulldoggroupinc.com,USA,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,JUVA SKIN & LASER CENTER,Medical,juvaskin.com,USA,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,SEEK THERMAL,Computers and Electronics Manufacturing,thermal.com,Canada,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,DS AVOCATS,Law,dsavocats.com,France,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,WEALTHWISE,Financial Services,wealthwise.com.au,Australia,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,LUACES ASESORES,Investment Management,luacesasesores.es,Spain,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,JULIUS FRITSCHE GMBH,Wholesale,fritsche.eu.com,Austria,LockBit3.0,N/A,N/A,N/A,/,13-Feb-23
+30-01-2023,PERENITYSOFTWARE,IT/Technology,perenitysoftware.com,Morocco,LockBit3.0,N/A,N/A,N/A,/,14-Feb-23
+30-01-2023,NPTC GROUP OF COLLEGES,college,nptcgroup.ac.uk,United Kingdom,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+30-01-2023,SEGUROS EQUINOCCIAL,Insurance,segurosequinoccial.com,Ecuador,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+30-01-2023,EGR,Shopping,egr.at,Austria,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+30-01-2023,HELICAR,Truck transportation,helicar.cz,Czech Republic,Play,N/A,N/A,Miscellaneous,/,02-Feb-23
+31-01-2023,FUJIKURA,"Appliances, Electrical, and Electronics Manufacturing",fujikura.co.jp,Japan,LockBit3.0,N/A,718 GB,Sensitive information,Sample with screenshots of miscellaneous info,20-Feb-23
+31-01-2023,CLASSMATES,IT/Technology,classmates.com,USA,N/A,N/A,2.371.000 records,Personal data,Miscellaneous personal data,14-Feb-23
+31-01-2023,MUNICIPALITY OF TORRE DEL GRECO,Public Sector Relations Services,torredelgreco.na.it,Italia,Royal,N/A,N/A,Miscellaneous,1% of the total amount,/
+31-01-2023,GERAARDSBERGEN,Hospitals and Health Care,geraardsbergen.be,Belgium,LockBit3.0,N/A,N/A,N/A,/,15-Feb-23
+31-01-2023,PLANET ICE,Travel Arrangements,planet-ice.co.uk,United Kingdom,N/A,N/A,240.488 accounts,Personal data,"Dates of birth, Email addresses, Genders, IP addresses, Names, Passwords,",/
+31-01-2023,NON STOP HEALTH,Insurance service,NonStopHealth.com,USA,N/A,N/A,82.393 records,Personal data,Miscellaneous personal data,/
+31-01-2023,PARK AVENUE DOOR AND HARDWARE,Business,parkavedoors.com,USA,LockBit3.0,N/A,N/A,N/A,/,15-Feb-23
+31-01-2023,2CARA,Accounting,2cara.fr,France,LockBit3.0,N/A,N/A,N/A,/,15-Feb-23
+31-01-2023,THAILAND CENTER OF EXCELLENCE FOR LIFE SCIENCES,Wellness and Fitness Services,tcels.or.th,Thailand,LockBit3.0,N/A,N/A,N/A,/,15-Feb-23
+31-01-2023,OKANAGAN COLLEGE,College,okanagan.bc.ca,Canada,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+31-01-2023,SCHEPPERSINSTITUUT WETTEREN,Education Management,scheppers-wetteren.be,Belgium,Vice Society,N/A,N/A,Miscellaneous,/,N/A
+31-01-2023,KNS BANK,Bank,Knsbl.com,India,N/A,N/A,1.5 MB,Employees personal data,"Names, emails, phone numbers, work position, home addresses and other personal",/
