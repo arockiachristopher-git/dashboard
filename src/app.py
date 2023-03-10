@@ -1637,7 +1637,7 @@ page_3_layout = dbc.Container([
 					),
 					dbc.Button(
 							"Page1",
-							href="/page-2",
+							href="/page-1",
 							external_link=True,
 							color="info",
 							className="me-1",
