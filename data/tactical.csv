@@ -1,0 +1,6 @@
+Malware Family,Tactics
+LockBit3.0,"InitialAccess,Collection,Execution,CredentialAccess,Persistence,PrivilegeEscalation,DefenseEvasion,Impact,Discovery"
+Royal,"InitialAccess,CommandandControl,Collection,Execution,Exfiltration,Persistence,PrivilegeEscalation,DefenseEvasion,Impact,Discovery,ResourceDevelopment,LateralMovement"
+BlackCat,"InitialAccess,CommandandControl,Collection,Execution,CredentialAccess,Persistence,PrivilegeEscalation,Exfiltration,Impact,DefenseEvasion,Reconnaissance,LateralMovement,Discovery,ResourceDevelopment"
+Vice Society,"InitialAccess,CommandandControl,Execution,CredentialAccess,Persistence,PrivilegeEscalation,Exfiltration,Impact,DefenseEvasion,LateralMovement,Discovery"
+Play,"LateralMovement,PrivilegeEscalation,Discovery,Persistence,Execution,Exfiltration,InitialAccess,DefenseEvasion,CommandandControl"
