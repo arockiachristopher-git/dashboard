@@ -102,10 +102,10 @@ for fam in top5_families:
 
 interval = 6000
 emailsendingransomware=[]
-with open('ransomwareemailsent.txt','r') as f:
+with open('../data/ransomwareemailsent.txt','r') as f:
         ransomwaretosend=[i for i in f.read().split('\n')]
-df1=pd.read_csv('newgroup.csv')
-df=pd.read_csv('ransomware.csv')
+df1=pd.read_csv('../data/newgroup.csv')
+df=pd.read_csv('../data/ransomware.csv')
 df=df[df.duplicated(subset=['Ransomware'], keep=False)]
 uniquehostname=df['Ransomware'].unique()
 cards=['N/A','N/A','N/A','N/A','N/A']
