@@ -1,0 +1,11 @@
+Ransomware Family,IOC Type,IOC Count
+LockBit3.0,Ip,34
+BlackCat,Ip,25
+Royal,Ip,20
+Play,Ip,18
+Vice Society,Ip,13
+LockBit3.0,Domain,30
+BlackCat,Domain,25
+Royal,Domain,20
+Play,Domain,15
+Vice Society,Domain,10
