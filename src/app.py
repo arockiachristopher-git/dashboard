@@ -33,12 +33,12 @@ app.layout = html.Div([
 
 alert = dbc.Alert("To get all CVE info subscribe to email alert!", color="danger",dismissable=True)
 
-pil_img = Image.open("csw.png")
-df_ransomware = pd.read_csv("strategic.csv")
+pil_img = Image.open("../data/csw.png")
+df_ransomware = pd.read_csv("../data/strategic.csv")
 ransomware_families = df_ransomware['Ransomware Family'].to_list()
-df_tactics = pd.read_csv("tactical.csv")
+df_tactics = pd.read_csv("../data/tactical.csv")
 malware_families_tactics = df_tactics['Malware Family'].to_list()
-df_vuln = pd.read_csv("ransomwarecves.csv")
+df_vuln = pd.read_csv("../data/ransomwarecves.csv")
 # malware_families_vuln = df_vuln['Operator Name'].unique().tolist()
 # operator_cve_mapping = {}
 # for operator in malware_families_vuln:
@@ -50,27 +50,27 @@ df_vuln = pd.read_csv("ransomwarecves.csv")
 # 		op_cve.extend(cve_str_list)
 # 	operator_cve_mapping[operator] = ",".join(list(set(op_cve)))
     
-df_hacks = pd.read_csv('hacks-of-the-day - hacks-of-the-day.csv',encoding='cp1252')
+df_hacks = pd.read_csv('../data/hacks-of-the-day - hacks-of-the-day.csv',encoding='cp1252')
 # trending_family_name = df_hacks['Attacker name'].value_counts().keys().tolist()
 # trending_family_name = trending_family_name[:5]
 trending_family_name = ['LockBit3.0','BlackCat','Royal','Vice Society','Play']
-df_aug = pd.read_csv('August.csv', encoding = "ISO-8859-1")
-df_sep = pd.read_csv('Sep.csv', encoding = "ISO-8859-1")
-df_oct = pd.read_csv('oct.csv', encoding = "ISO-8859-1")
-df_nov = pd.read_csv('nov.csv', encoding = "ISO-8859-1")
-df_dec = pd.read_csv('dec.csv', encoding = "ISO-8859-1")
-df_jan = pd.read_csv('jan.csv',encoding='ISO-8859-1')
-df_feb = pd.read_csv('feb.csv',encoding='ISO-8859-1')
-df_attack_vector = pd.read_csv('attack vector.csv',encoding='cp1252')
+df_aug = pd.read_csv('../data/August.csv', encoding = "ISO-8859-1")
+df_sep = pd.read_csv('../data/Sep.csv', encoding = "ISO-8859-1")
+df_oct = pd.read_csv('../data/oct.csv', encoding = "ISO-8859-1")
+df_nov = pd.read_csv('../data/nov.csv', encoding = "ISO-8859-1")
+df_dec = pd.read_csv('../data/dec.csv', encoding = "ISO-8859-1")
+df_jan = pd.read_csv('../data/jan.csv',encoding='ISO-8859-1')
+df_feb = pd.read_csv('../data/feb.csv',encoding='ISO-8859-1')
+df_attack_vector = pd.read_csv('../data/attack vector.csv',encoding='cp1252')
 sector_unique_family = []
-newWorkbook = openpyxl.load_workbook('5 month data.xlsx')
+newWorkbook = openpyxl.load_workbook('../data/5 month data.xlsx')
 for sheet in newWorkbook.sheetnames:
-	df_sector = pd.read_excel('5 month data.xlsx',sheet_name=sheet)
+	df_sector = pd.read_excel('../data/5 month data.xlsx',sheet_name=sheet)
 	sector_unique_family.extend(df_sector['Operator'].unique().tolist())
 sector_unique_family = list(set(sector_unique_family))
 
 
-dff_funnel = pd.read_csv("funnelchart - Sheet1.csv")
+dff_funnel = pd.read_csv("../data/funnelchart - Sheet1.csv")
 ransomware_ioc_count = {}
 ransomware_ioc_count_dict = {'Ransomware Family': [], 'IOC Count': []}
 for i in range(dff_funnel.shape[0]):
