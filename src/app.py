@@ -779,7 +779,7 @@ def build_graph(my_dropdown_2,my_range_slider):
 	df_final = pd.DataFrame()
 	ransomware_sector_mapping = {}
 	for month in month_list:
-		dff = pd.read_excel('5 month data.xlsx',sheet_name=dataframe_month[month])
+		dff = pd.read_excel('../data/5 month data.xlsx',sheet_name=dataframe_month[month])
 		dff = dff[dff['Operator']==my_dropdown_2].reset_index(drop=True)
 		frames = [df_final,dff]
 		df_final = pd.concat(frames,ignore_index=True)
