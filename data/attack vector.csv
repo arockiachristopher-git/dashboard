@@ -1,27 +1,21 @@
 LockBit3.0,BlackCat,Royal,Vice Society,Play
 Phishing,Microsoft Exchange server vulnerabilities,Vulnerabilities,Executables,RDP 
 Compromised credentials,Stolen credentials,Security misconfiguration,Compromised credentials,Lolbins Binaries
-Virus file,Botnet,Session hijacking,Powershell scripting,Weak account password
-Malware,Valid Accounts,Sql injection,Third and fourth party vendors,Brute Force
-Vulnerability Exploit,Exploit Public-Facing Application,Poor encryption,Phishing,Vulnerability
-SLP Requests,Command and Scripting Interpreter,Vulnerability Exploit,Exploits,Unpatched exchange servers
-Domain policy modification,Session hijacking,Malware,Supply Chain Vendors,Unpatched vulnerabilities
-Access token manipulation,Compromised credentials,Callback phishing,Website exploitation,compromised credentials
-Abuse elevation control mechanism,Weak Encryption,Remote access tools,Misconfigurations,valid accounts
-Third and fourth party vendors,Private access key token,Secuity tool disable,Dump passwords,Phishing emails
-UAC bypass,RDP,Domain discovery,Zeppelin ransomware,Third and fourth party vendors
-Valid accounts,Emotet botnet malware,C2C server,Poor encryption,Injection
-RCE/PE Exploits,RCE,Domain Shadowing,Custom-built ransomware,weak encryption
-Command and scripting interpreter, Exchange server vulnerabilities,Data obfuscation,Neshta file infector,AdFind – a command-line query 
-Obfuscated files or information,UAC Bypass,Valid accounts,"Drive-By Download Attack
-",RCE
-RDP,Domain and device enumeration,Command and scripting interpreter,Malvertising,infiltrate victim networks
-Weak Encryption,Self-propagation,Account discovery,Open ports,Supply Chain Vendors
-Unpatched Applications or Servers,Unpatched exchange servers,RDP,Instant messages,Removable media
-Browser-based attacks,Discovery commands,File and Directory Discovery, AMSI bypass, DNS Poisoning
-Application compromise,registry modification,System Network Configuration Discovery,Registry modification,Remote access tools
-AdFind – a command-line query ,AdFind – a command-line query ,Network Service Discovery,pass-the-hash attacks ,
-Remote access tools,Remote access tools,Process Discovery,valid accounts,
-,,System Information Discovery,Application compromise,
-,,Network Share Discovery,Process Injection,
-,,,DLL - side loading,
+Malcious file,Botnet,Session hijacking,Powershell scripting,Weak account password
+Malware,Exploit Public-Facing Application,Sql injection,Third and fourth party vendors,Brute Force
+Vulnerabilities,Command and Scripting Interpreter,Poor encryption,Phishing,Vulnerability
+SLP Requests,Session hijacking,Vulnerability Exploit,Exploits,Unpatched exchange servers
+Domain policy modification,Compromised credentials,Malware,Supply Chain Vendors,compromised credentials
+Access token manipulation,Weak Encryption,Callback phishing,Website exploitation,Phishing emails
+Abuse elevation control mechanism,RDP,Remote access tools,Misconfigurations,Third and fourth party vendors
+Third and fourth party vendors,RCE,Secuity tool disable,Dump passwords,Injection
+UAC bypass,UAC Bypass,Domain discovery,Poor encryption,weak encryption
+RCE/PE Exploits,Domain and device enumeration,C2 server,Open ports,RCE
+Command and scripting interpreter,Self-propagation,Domain Shadowing,Instant messages,infiltrate victim networks
+Obfuscated files or information,Unpatched exchange servers,Data obfuscation, AMSI bypass,Supply Chain Vendors
+Weak Encryption,Discovery commands,Command and scripting interpreter,Registry modification,Removable media
+Unpatched Applications or Servers,registry modification,File and Directory Discovery,pass-the-hash attacks , DNS Poisoning
+Browser-based attacks,,Network Service Discovery,valid accounts,
+Application compromise,,Process Discovery,Application compromise,
+,,System Information Discovery,Process Injection,
+,,Network Share Discovery,DLL - side loading,

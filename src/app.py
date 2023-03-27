@@ -33,7 +33,7 @@ app.layout = html.Div([
 
 alert = dbc.Alert("To get all CVE info subscribe to email alert!", color="danger",dismissable=True)
 
-pil_img = Image.open("../data/csw.png")
+pil_img = Image.open("../data/securin.jpg")
 df_ransomware = pd.read_csv("../data/strategic.csv")
 ransomware_families = df_ransomware['Ransomware Family'].to_list()
 df_tactics = pd.read_csv("../data/tactical.csv")
@@ -159,7 +159,8 @@ sector_month_dict = {
 
 def update_card_strategic_1(my_dropdown_2):
 	dff = df_ransomware
-	df_selected = dff[dff['Ransomware Family'] == my_dropdown_2].reset_index()   
+	df_selected = dff[dff['Ransomware Family'] == my_dropdown_2].reset_index(drop=True) 
+	print(df_selected)
 	card1 = dbc.Card(
 		dbc.CardBody(
 			[
@@ -311,6 +312,7 @@ def update_vuln(my_dropdown_vuln):
 		vuln_list.extend(cve_str_list)
 	vuln_list = list(set(vuln_list))
 	vuln_list = [x.strip() for x in vuln_list]
+	print(vuln_list)
 	table_cve_list = []
 	# alerts = dbc.Alert("This is a primary alert", color="primary")
 	table_header = []
@@ -803,7 +805,11 @@ def build_graph(my_dropdown_2,my_range_slider):
 
 
 def funnelchart():
-    fig = px.funnel(df_final, y='Ransomware Family', x='IOC Count', color='IOC Type', template = "plotly_dark", 
+    malware_iocs = {'Malware Family': ['mirai','mirai','redline','redline','xmrig','xmrig','amadey','amadey','agenttesla','agenttesla'], 'IOC Count': [82,3914,1520,2075,926,1175,726,1007,624,558], 'IOC Type': ['Domain','Ip','Domain','Ip','Domain','Ip','Domain','Ip','Domain','Ip']}
+    # malware_iocs = {'Ransomware Family': ['redline','xmrig','amadey','agenttesla','mirai','mirai','redline','xmrig','amadey','agenttesla'], 'IOC Count': [1520,926,726,624,82,3914,2075,1175,1007,558], 'IOC Type': ['Domain','Domain','Domain','Domain','Domain','Ip','Ip','Ip','Ip','Ip']}
+    # malware_iocs = {'redline':1305,'amadey':720,'xmrig': 949,'smokeloader':676,'agenttesla':623}
+    dff = pd.DataFrame.from_dict(malware_iocs)
+    fig = px.funnel(dff, y='Malware Family', x='IOC Count', color='IOC Type', template = "plotly_dark", 
     # labels={
     #   "Domain": "<b>Domain</b>","Ip": "<b>Ip</b>"}
       )
@@ -836,7 +842,10 @@ def funnelchart():
 
 
 def funnelchart2():
-    fig = px.funnel(df_final, y='Ransomware Family', x='IOC Count', color='IOC Type', template = "plotly_dark")
+    malware_iocs = {'Malware Family': ['mirai','mirai','redline','redline','xmrig','xmrig','smokeloader','smokeloader','amadey','amadey'], 'IOC Count': [136,7153,2410,4315,2148,3327,1349,2229,1086,2092], 'IOC Type': ['Domain','Ip','Domain','Ip','Domain','Ip','Domain','Ip','Domain','Ip']}
+    # malware_iocs = {'Ransomware Family': ['redline','xmrig','smokeloader','amadey','mirai','mirai','redline','xmrig','smokeloader','amadey'], 'IOC Count': [2410,2148,1349,1086,136,7153,4315,3327,2229,2092], 'IOC Type': ['Domain','Domain','Domain','Domain','Domain','Ip','Ip','Ip','Ip','Ip']}
+    dff = pd.DataFrame.from_dict(malware_iocs)
+    fig = px.funnel(dff, y='Malware Family', x='IOC Count', color='IOC Type', template = "plotly_dark")
     # fig.append_trace(
     #     fig2,row=1,col=2
 	# )
@@ -863,8 +872,10 @@ def funnelchart2():
 
 
 def funnelchart3():
-    
-    fig = px.funnel(df_final, y='Ransomware Family', x='IOC Count', color='IOC Type', template = "plotly_dark")
+    malware_iocs = {'Malware Family': ['emotet','emotet','redline','redline','xmrig','xmrig','smokeloader','smokeloader','amadey','amadey'], 'IOC Count': [1329,17249,4166,8302,3312,4769,3006,4979,1712,3442], 'IOC Type': ['Domain','Ip','Domain','Ip','Domain','Ip','Domain','Ip','Domain','Ip']}
+    # malware_iocs = {'Ransomware Family': ['redline','xmrig','smokeloader','amadey','emotet','emotet','redline','smokeloader','xmrig','amadey'], 'IOC Count': [4166,3312,3006,1712,1329,17429,8302,4979,4769,3442], 'IOC Type': ['Domain','Domain','Domain','Domain','Domain','Ip','Ip','Ip','Ip','Ip']}
+    dff = pd.DataFrame.from_dict(malware_iocs)
+    fig = px.funnel(dff, y='Malware Family', x='IOC Count', color='IOC Type', template = "plotly_dark")
     # fig.append_trace(
     #     fig3,row=1,col=3
 	# )
@@ -1011,7 +1022,7 @@ card1_1m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #1", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"redline", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1022,7 +1033,7 @@ card2_1m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #2", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"amadey", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1033,7 +1044,7 @@ card3_1m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #3", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"mirai", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1044,7 +1055,7 @@ card4_1m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #4", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"xmrig", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1055,7 +1066,7 @@ card5_1m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #5", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"agenttesla", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1066,7 +1077,7 @@ card1_3m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #1", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"redline", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1077,7 +1088,7 @@ card2_3m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #2", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"mirai", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1088,7 +1099,7 @@ card3_3m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #3", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"xmrig", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1100,7 +1111,7 @@ card4_3m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #4", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"amadey", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1112,7 +1123,7 @@ card5_3m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #5", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"smokeloader", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1123,7 +1134,7 @@ card1_6m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #1", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"redline", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1134,7 +1145,7 @@ card2_6m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #2", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"emotet", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1145,7 +1156,7 @@ card3_6m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #3", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"smokeloader", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1156,7 +1167,7 @@ card4_6m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #4", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"amadey", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1167,7 +1178,7 @@ card5_6m = dbc.Card(
 		[
 			html.Div([
 		html.H5(f"Trending #5", className="text-nowrap text-warning fw-bold",style={'textAlign':'center'}),       
-		html.H6(f"N/A", className="text-nowrap fw-bold",style={'textAlign':'center'}),
+		html.H6(f"xmrig", className="text-nowrap fw-bold",style={'textAlign':'center'}),
 	]),
 	], class_name="border-start border-warning border-5 card border-primary mb-0 max-width: 60rem;"
 	), class_name="text-left m-4",
@@ -1183,7 +1194,7 @@ header_logo_time_layout = dbc.Row([
 	dbc.Col([
 		html.H1(html.Div("KUMAON MK1", style={'textAlign' : 'center'}, className="text-warning"))], md=7),
 	dbc.Col([
-		html.H5(html.Div(f'Date: {datetime.datetime.now().strftime("%d-%m-%Y")}\nTime: {datetime.datetime.now().strftime("%H:%M")}', style={'textAlign' : 'right'}, className="text-warning"))], md=2,width={'offset' : 1})
+		html.H5(html.Div(f'Date: {datetime.datetime.now().strftime("%d-%m-%Y")}', style={'textAlign' : 'right'}, className="text-warning"))], md=2,width={'offset' : 1})
 ],align='end',justify='start')
 
 
@@ -1204,7 +1215,7 @@ operational_intelligence_layout = [
 	]),
 	dbc.Row([
 		dbc.Col([
-			html.H5(html.Mark("TRENDING"), style={'textAlign' : 'left'}, className="fw-bold")
+			html.H5("TRENDING", style={'textAlign' : 'left'}, className="fw-bold")
 		], width = 12)
 	]),
 	dbc.Row([
@@ -1216,7 +1227,7 @@ operational_intelligence_layout = [
 	]),
 	dbc.Row([
 		dbc.Col([
-			html.H5(html.Mark("NEW RANSOMWARE GROUPS"), style={'textAlign' : 'left'}, className="fw-bold")
+			html.H5("NEW RANSOMWARE GROUPS", style={'textAlign' : 'left'}, className="fw-bold")
 		], width = 12)
 	]),
 	dbc.Row([
@@ -1227,7 +1238,7 @@ operational_intelligence_layout = [
 		dbc.Col(rg5)
 	]),
     dbc.Row([
-		html.H5(html.Mark(['FAMILY']), style={'textAlign' : 'left'}, className="fw-bold"),
+		html.H5("OPERATORS", style={'textAlign' : 'left'}, className="fw-bold"),
         html.Div([html.P('')]),
 			dcc.Dropdown(
 				trending_family_name,
@@ -1239,7 +1250,7 @@ operational_intelligence_layout = [
 	]),
     dbc.Row([
 		dbc.Col([
-			html.H5(html.Mark(['INTENT & CAPABILITY']), style={'textAlign' : 'left'}, className="fw-bold" ),
+			html.H5("INTENT & CAPABILITY", style={'textAlign' : 'center'}, className="fw-bold"),
         	html.Div(id='the_card_intent')	
 	])
 	]),
@@ -1249,8 +1260,9 @@ operational_intelligence_layout = [
 			html.Div([
 			dbc.Row([html.Div([html.P('')])]),
 			html.Div([
-				html.H5(html.Mark(['EXTORTION TIMELINE']), style={'textAlign' : 'left'}, className="fw-bold"),
+				html.H5("EXTORTION TIMELINE", style={'textAlign' : 'center'}, className="fw-bold"),
 				html.P(),
+                dbc.Row([html.Div([html.P('')])]),
 				dcc.RangeSlider(
 					id='my_range_slider',
 					marks=month_dict,
@@ -1280,12 +1292,17 @@ operational_intelligence_layout = [
 malware_analysis = [
 	dbc.Row([
 		dbc.Col([
-			html.H4("MALWARE", style={'textAlign' : 'left'}, className="fw-bold margin-bottom: 25px")
+			html.H3("MALWARE", style={'textAlign' : 'center'}, className="fw-bold margin-bottom: 25px")
+		], width = 12)
+	]),
+    dbc.Row([
+		dbc.Col([
+			html.H4("OPERATIONAL INTELLIGENCE", style={'textAlign' : 'left'}, className="fw-bold margin-bottom: 25px")
 		], width = 12)
 	]),
 	dbc.Row([
 		dbc.Col([
-			html.H5(html.Mark("1-MONTH TRENDING"), style={'textAlign' : 'left'}, className="fw-bold")
+			html.H5("1-MONTH TRENDING", style={'textAlign' : 'left'}, className="fw-bold")
 		], width = 12)
 	]),
 	dbc.Row([
@@ -1297,7 +1314,7 @@ malware_analysis = [
 	]),
 	dbc.Row([
 		dbc.Col([
-			html.H5(html.Mark("3-MONTH TRENDING"), style={'textAlign' : 'left'}, className="fw-bold")
+			html.H5("3-MONTH TRENDING", style={'textAlign' : 'left'}, className="fw-bold")
 		], width = 12)
 	]),
 	dbc.Row([
@@ -1309,7 +1326,7 @@ malware_analysis = [
 	]),
 	dbc.Row([
 		dbc.Col([
-			html.H5(html.Mark("6-MONTH TRENDING"), style={'textAlign' : 'left'}, className="fw-bold")
+			html.H5("6-MONTH TRENDING", style={'textAlign' : 'left'}, className="fw-bold")
 		], width = 12)
 	]),
 	dbc.Row([
@@ -1368,7 +1385,7 @@ tactical_vuln_intelligence_layout =  dbc.Row([
 
 attack_by_sector_attack_vector = dbc.Row([
 	dbc.Col([
-		html.H4("ATTACK BY SECTOR", style={'textAlign' : 'left'}, className="fw-bold margin-bottom: 25px"),
+		html.H4("ATTACK BY SECTORS", style={'textAlign' : 'left'}, className="fw-bold margin-bottom: 25px"),
 		dcc.Graph(id='the_piechart_graph')
 	],align="left",width=6),
     # dbc.Col([
@@ -1376,7 +1393,7 @@ attack_by_sector_attack_vector = dbc.Row([
 	# 	dcc.Graph(id='the_donut_graph')
 	# ],align='right',width=6)
 	dbc.Col([
-		html.H4("ATTACK VECTOR", style={'textAlign' : 'left'}, className="fw-bold margin-bottom: 25px"),
+		html.H4("ATTACK VECTORS", style={'textAlign' : 'left'}, className="fw-bold margin-bottom: 25px"),
 		html.Div(id='the_attack_vector')
 	],align='right',width=6)
 ])
@@ -1384,7 +1401,7 @@ attack_by_sector_attack_vector = dbc.Row([
 
 chained_callback_attack_by_sector = [
     dbc.Row([
-		html.H5(html.Mark(['FAMILY']), style={'textAlign' : 'left'}, className="fw-bold"),
+		html.H5("ALL OPERATORS", style={'textAlign' : 'left'}, className="fw-bold"),
         html.Div([html.P('')]),
 			dcc.Dropdown(
 				sector_unique_family,
@@ -1400,8 +1417,9 @@ chained_callback_attack_by_sector = [
 			html.Div([
 			dbc.Row([html.Div([html.P('')])]),
 			html.Div([
-				html.H5(html.Mark(['AFFECTED SECTORS BY RANSOMWARE']), style={'textAlign' : 'left'}, className="fw-bold"),
+				html.H5("5-MONTH AFFECTED SECTORS", style={'textAlign' : 'center'}, className="fw-bold"),
 				html.P(),
+                dbc.Row([html.Div([html.P('')])]),
 				dcc.RangeSlider(
 					id='my_range_slider_1',
 					marks=sector_month_dict,
@@ -1429,7 +1447,8 @@ chained_callback_attack_by_sector = [
 
 funnel_chart_layout = dbc.Row([
 	dbc.Col([
-		html.H5(html.Mark("1 Month"), style={'textAlign' : 'left'}, className="fw-bold"),
+		html.H5("30-DAYS", style={'textAlign' : 'left'}, className="fw-bold"),
+        html.Div([html.P('')]),
 		html.Div([
 			dcc.Graph(
 				figure = funnelchart()
@@ -1439,7 +1458,8 @@ funnel_chart_layout = dbc.Row([
         #,md=5, width = {'offset':0, 'size':0}, align = "start"
             ),
 	dbc.Col([
-		html.H5(html.Mark("3 Month"), style={'textAlign' : 'left'}, className="fw-bold"),
+		html.H5("90-DAYS", style={'textAlign' : 'left'}, className="fw-bold"),
+        html.Div([html.P('')]),
 		html.Div([
 			dcc.Graph(
 				figure = funnelchart2()
@@ -1448,7 +1468,8 @@ funnel_chart_layout = dbc.Row([
 	]),
     # , md=5, width = {'offset':0, 'size':0}, align = "left"
 	dbc.Col([
-		html.H5(html.Mark("6 Month"), style={'textAlign' : 'left'}, className="fw-bold"),
+		html.H5("180-DAYS", style={'textAlign' : 'left'}, className="fw-bold"),
+        html.Div([html.P('')]),
 		html.Div([
 			dcc.Graph(
 				figure = funnelchart3()
@@ -1546,7 +1567,7 @@ page_2_layout = dbc.Container([
 	dbc.Row([html.Div([html.P('')])]),
     dbc.Row([html.Div([html.P('')])]),
     dbc.Row([
-		html.H5(html.Mark(['FAMILY']), style={'textAlign' : 'left'}, className="fw-bold"),
+		html.H5("OPERATORS", style={'textAlign' : 'left'}, className="fw-bold"),
         html.Div([html.P('')]),
 			dcc.Dropdown(
 				trending_family_name,
@@ -1605,6 +1626,7 @@ page_3_layout = dbc.Container([
     malware_analysis[0],
     dbc.Row([html.Div([html.P('')])]),
     malware_analysis[1],
+    dbc.Row([html.Div([html.P('')])]),
     malware_analysis[2],
     dbc.Row([html.Div([html.P('')])]),
     malware_analysis[3],
@@ -1612,8 +1634,15 @@ page_3_layout = dbc.Container([
     dbc.Row([html.Div([html.P('')])]),
     malware_analysis[5],
     malware_analysis[6],
+    malware_analysis[7],
     dbc.Row([html.Div([html.P('')])]),
     dbc.Row([html.Div([html.P('')])]),
+    dbc.Row([
+		dbc.Col([
+			html.H4("TECHNICAL INTELLIGENCE", style={'textAlign' : 'left'}, className="fw-bold margin-bottom: 25px")
+		], width = 12)
+	]),
+    dbc.Row([html.Div([html.P('')])]),  
     funnel_chart_layout,
     dbc.Row([html.Div([html.P('')])]),
     dbc.Row([html.Div([html.P('')])]),
